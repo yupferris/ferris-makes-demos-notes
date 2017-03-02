@@ -18,6 +18,25 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
 
 [blueberry]: http://www.pouet.net/user.php?who=10883
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+**Table of Contents**
+
+- [Ep.002 - Demotivation - Notes](#ep002---demotivation---notes)
+    - [Talk TOC](#talk-toc)
+    - [Tool Windows Overview](#tool-windows-overview)
+    - [App Tech and Layers](#app-tech-and-layers)
+    - [Operator Graph Editor](#operator-graph-editor)
+        - [Graph Colors and Concepts](#graph-colors-and-concepts)
+        - [Operators](#operators)
+        - [Graph execution and asset management](#graph-execution-and-asset-management)
+    - [Sync Tracker](#sync-tracker)
+    - [Sample Project](#sample-project)
+        - [Rendering pipeline](#rendering-pipeline)
+    - [Packaging the final EXE](#packaging-the-final-exe)
+    - [Low-level module architecture](#low-level-module-architecture)
+
+<!-- markdown-toc end -->
+
 ## Talk TOC
 
 - `00:04:47` tool windows
