@@ -116,21 +116,21 @@ Horizontal arrangement: for now it is only for visually grouping vertical stacks
 | `sb`      | define a subroutine                     |
 | `cl`      | call a subroutine                       |
 | `ar`      | argument for a subroutine               |
-|-----------|-----------------------------------------|
+|           |                                         |
 | `program` | bind a shader                           |
 | `uf`      | uniform float                           |
 | `urtt`    | uniform from render target as texture   |
-|-----------|-----------------------------------------|
+|           |                                         |
 | `clear`   | glClear                                 |
 | `quad`    | draw on a quad                          |
 | `vp`      | viewport settings                       |
-|-----------|-----------------------------------------|
+|           |                                         |
 | `rt`      | define render target                    |
 | `rtb`     | bind render target before drawing on it |
-|-----------|-----------------------------------------|
+|           |                                         |
 | `lc`      | assign local variable                   |
 | `gl`      | assign global variable                  |
-|-----------|-----------------------------------------|
+|           |                                         |
 | `if`      | conditional                             |
 | `rp`      | repeat                                  |
 
