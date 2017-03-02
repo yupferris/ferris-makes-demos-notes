@@ -111,6 +111,8 @@ Horizontal arrangement: for now it is only for visually grouping vertical stacks
 
 ### Operators
 
+| operator  | description                             |
+|-----------|-----------------------------------------|
 | `sb`      | define a subroutine                     |
 | `cl`      | call a subroutine                       |
 | `ar`      | argument for a subroutine               |
@@ -200,17 +202,3 @@ The included byte code gets JIT-ed the asset manager will perpare render targets
 ## Low-level module architecture
 
 ![modules](./assets/modules-diagram.png)
-
-## Questions
-
-Synctrack editor was created by ... ?
-
-How do the variables listed in the Sync tracker get passed to the demo?
-
-Are you using only the sync tracker's values for animation, as the equivalent of a timeline editor?
-
-How does the scene knows which variables it should have access to?
-
-On the sync tracker's left side, the numbers are milliseconds?
-
-Wat? "In the byte code this is turned into indexes in a big ordered list."
