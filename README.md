@@ -6,7 +6,7 @@ Notes on [Ferris Makes Demos Ep.002 - Demotivation][talk] by [ferris](https://gi
 
 The tool generates the demo in real-time from an operator graph and renders it in the viewport.
 
-Ferris says he took much inspiration for its design from 4k tool of the [Loonies][loonies] group, which is created by [blueberry][blueberry].
+Ferris says he took much inspiration for its design from the 4k tool of the [Loonies][loonies] group, which was created by [blueberry][blueberry].
 
 The plan is that the tool will be (eventually) open-source as a public mirror, with demos being privately developed until released, at which point the tip of the repository will also get updated.
 
@@ -203,7 +203,26 @@ The editor was created by (... ?)
 
 ## Sample Project
 
+This expresses the steps you would be hard-coding to produce the gfx.
+
 ![sample project op graph](./assets/ep002-op-graph.png)
+
+![graph parts](./assets/ep002-op-graph-parts.png)
+
+- **1.**
+- clear
+- set aspect and viewport
+- call `renderPipeline`
+  - **2.**
+  - call `initRender`
+    - **3.**
+    - setup render targets
+  - call `gbufferPass`
+    - set render target buffer
+    - call `drawScene`
+      - **4.**
+      - draw raymarched scene to a g-buffer
+  - call post-processing passes
 
 ### Rendering pipeline
 
