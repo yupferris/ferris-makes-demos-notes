@@ -106,9 +106,10 @@ Because of the frequent recompilation, it was necessary to generate the CPU code
 - JIT compiles the byte code to x86 as a function that does all the drawing
 - the x86 is executed for every frame to draw
 
-- `00:19:00`
-  - Q: why a visual language instead of a text-based one?
-  - A: less time spent on syntax, and easier to teach other group members how to use
+`00:19:00`
+
+- Q: why a visual language instead of a text-based one?
+- A: less time spent on syntax, and easier to teach other group members how to use
 
 [JIT]: https://en.wikipedia.org/wiki/Just-in-time_compilation
 
