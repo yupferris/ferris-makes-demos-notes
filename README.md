@@ -29,7 +29,7 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
         - [Graph Colors and Concepts](#graph-colors-and-concepts)
         - [Operators](#operators)
         - [Graph execution and asset management](#graph-execution-and-asset-management)
-    - [Sync Tracker](#sync-tracker)
+    - [Synth Tracker](#synth-tracker)
     - [Sample Project](#sample-project)
         - [Rendering pipeline](#rendering-pipeline)
     - [Packaging the final EXE](#packaging-the-final-exe)
@@ -60,9 +60,9 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
 
 ## Tool Windows Overview
 
-The screenshot shows a raymarched scene, its operator graph and a sync tracker window.
+The screenshot shows a raymarched scene, its operator graph and a synth tracker window.
 
-On left side is the demotool window, on the right side is the sync tracker window (separate application). The demotool connects to the sync tracker on a `localhost` port.
+On left side is the demotool window, on the right side is the synth tracker window (separate application). The demotool connects to the synth tracker on a `localhost` port.
 
 ![tool window screenshot](./assets/tool-window-overview-screenshot.png)
 
@@ -94,7 +94,7 @@ The blocks are a tree, represented with blocks on a grid.
 
 As a **data model**, the graph is a hashmap of **positions** on a grid to **operators**. Operators are tagged enums. Each operator has an expression, a string which is later interpreted to values.
 
-(`00:31:18`) An expession `sync("Post:black")` will grab a value from the sync tracker.
+(`00:31:18`) An expession `sync("Post:black")` will grab a value from the synth tracker.
 
 The graph is recompiled at every keypress and rendered, or errors are printed on the console.
 
@@ -169,11 +169,11 @@ The context for the function:
 
 In the byte code this is turned into indexes in a big ordered list.
 
-## Sync Tracker
+## Synth Tracker
 
 Allows to move backwards and forwards in time, play and stop, etc.
 
-This is based on GNU Rocket, although it doesn't have any code left from the original Rocket. The main part is a data format and protocol to do sync via a [client-server IPC][IPC] (Inter-process Communication) model.
+This is based on GNU Rocket, although it doesn't have any code left from the original Rocket. The main part is a data format and protocol to do synth tracking via a [client-server IPC][IPC] (Inter-process Communication) model.
 
 The editor was created by (... ?)
 
