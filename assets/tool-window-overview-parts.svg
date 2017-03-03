@@ -16,7 +16,7 @@
    height="1080"
    viewBox="0 0 1920 1080"
    sodipodi:docname="tool-window-overview-parts.svg"
-   inkscape:version="0.92+devel unknown"
+   inkscape:version="0.92.1 unknown"
    inkscape:export-filename="/home/yume/prods/demotivation-notes/assets/tool-window-overview-parts.png"
    inkscape:export-xdpi="40"
    inkscape:export-ydpi="40">
@@ -75,11 +75,11 @@
     <image
        sodipodi:absref="/home/yume/prods/demotivation-notes/assets/tool-window-overview.png"
        xlink:href="tool-window-overview.png"
-       width="1920"
-       height="1080"
-       preserveAspectRatio="none"
+       id="image4358"
        style="image-rendering:optimizeQuality"
-       id="image4358" />
+       preserveAspectRatio="none"
+       height="1080"
+       width="1920" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -136,14 +136,12 @@
        y="0.97304589" />
     <text
        xml:space="preserve"
-       style="font-size:80px;line-height:20px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-size:80px;line-height:20px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        x="1323.4059"
        y="277.69748"
        id="text4377"><tspan
          sodipodi:role="line"
-         x="1323.4059"
-         y="277.69748"
-         id="tspan32">Synth Tracker</tspan></text>
+         id="tspan3704">Synth Tracker</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:80px;line-height:20px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

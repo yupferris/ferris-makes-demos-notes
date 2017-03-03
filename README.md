@@ -55,8 +55,30 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
 - `00:53:15` packaging the final EXE prod
 - `01:01:55` slashing shape
 - `01:04:00` undo - redo
-- `01:05:55` low-level module architecture, (blackboard)
-- ...
+- `01:05:55` low-level module architecture diagram
+- `01:15:40` synth (WaveSabre)
+- `01:17:25` UI layers, undo
+- `01:21:50` input to Rivet and synth, binary blob exporting and packaging
+- `01:26:15` platforms, final target is `x86` 32bit MSVC
+- `01:28:15` less than 300k before compression
+- `01:29:55` synth tracker variable values
+- `01:33:15` content creation limitations for 64k
+- `01:35:00` no texture generator in the tool
+- `01:38:40` code overview
+- `01:39:55` byte code of operators
+- `01:43:30` JIT
+- `01:50:00` x86 code instructions
+- `01:52:45` main JIT module
+- `01:54:15` ABI on Windows vs. OS/X
+- `01:59:00` Op. code JIT translation
+- `02:03:10` debugging JIT on OS/X
+- `02:06:50` compile from graph ops enums
+- `02:10:10` main compile fn from grid positions to AST
+- `02:14:11` AST
+- `02:16:20` compiler context
+- `02:20:00` render target visitor
+- `02:21:15` code gen visitor
+- `02:21:50` expression parser with `nom` crate
 
 ## Tool Windows Overview
 
@@ -222,3 +244,14 @@ The included byte code gets JIT-ed the asset manager will perpare render targets
 ## Low-level module architecture
 
 ![modules](./assets/modules-diagram.png)
+
+`01:14:50`
+
+OPUS from **Op**erator
+
+Rivet will compile to the actual 64k intro prod EXE
+
+- Opus takes the project (the list of operators) and serializes that to byte code
+- Opus Runtime will take the byte code and turn it into `x86`
+- the `x86` is then executed against the GL library
+
