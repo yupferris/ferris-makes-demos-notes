@@ -86,9 +86,9 @@ The screenshot shows a raymarched scene, its operator graph and a sync tracker w
 
 On left side is the demotool window, on the right side is the sync tracker window (separate application). The demotool connects to the sync tracker on a `localhost` port.
 
-![tool window screenshot](./assets/tool-window-overview-screenshot.png)
+![tool window screenshot](./assets/ep002/tool-window-overview-screenshot.png)
 
-![tool window parts](./assets/tool-window-overview-parts.png)
+![tool window parts](./assets/ep002/tool-window-overview-parts.png)
 
 ## App Tech and Layers
 
@@ -209,9 +209,9 @@ The editor is [emoon/rocket](https://github.com/emoon/rocket), created by [emoon
 
 This expresses the steps you would be hard-coding to produce the gfx.
 
-![sample project op graph](./assets/ep002-op-graph.png)
+![sample project op graph](./assets/ep002/ep002-op-graph.png)
 
-![graph parts](./assets/ep002-op-graph-parts.png)
+![graph parts](./assets/ep002/ep002-op-graph-parts.png)
 
 - **1.**
 - clear
@@ -266,7 +266,7 @@ The included byte code gets JIT-ed the asset manager will perpare render targets
 
 ## Low-level module architecture
 
-![modules](./assets/modules-diagram.png)
+![modules](./assets/ep002/modules-diagram.png)
 
 `01:14:50`
 
