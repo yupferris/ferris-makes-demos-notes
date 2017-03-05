@@ -59,9 +59,9 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:zoom="0.34427083"
-     inkscape:cx="1446.9213"
-     inkscape:cy="192.40789"
+     inkscape:zoom="0.48687248"
+     inkscape:cx="1478.3741"
+     inkscape:cy="292.41033"
      inkscape:window-x="0"
      inkscape:window-y="37"
      inkscape:window-maximized="0"
@@ -75,11 +75,11 @@
     <image
        sodipodi:absref="/home/yume/prods/demotivation-notes/assets/tool-window-overview.png"
        xlink:href="tool-window-overview.png"
-       id="image4358"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
+       width="1920"
        height="1080"
-       width="1920" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image4358" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -136,12 +136,14 @@
        y="0.97304589" />
     <text
        xml:space="preserve"
-       style="font-size:80px;line-height:20px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-       x="1323.4059"
-       y="277.69748"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:20px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1329.8145"
+       y="294.46002"
        id="text4377"><tspan
          sodipodi:role="line"
-         id="tspan3704">Synth Tracker</tspan></text>
+         id="tspan4507"
+         x="1329.8145"
+         y="294.46002">Sync Tracker</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:80px;line-height:20px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

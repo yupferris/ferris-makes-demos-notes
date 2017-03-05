@@ -29,7 +29,7 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
         - [Graph Colors and Concepts](#graph-colors-and-concepts)
         - [Operators](#operators)
         - [Graph execution and asset management](#graph-execution-and-asset-management)
-    - [Synth Tracker](#synth-tracker)
+    - [Sync Tracker](#sync-tracker)
     - [Sample Project](#sample-project)
         - [Rendering pipeline](#rendering-pipeline)
     - [Packaging the final EXE](#packaging-the-final-exe)
@@ -58,10 +58,10 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
 - `01:05:55` low-level module architecture diagram
 - `01:15:40` synth (WaveSabre)
 - `01:17:25` UI layers, undo
-- `01:21:50` input to Rivet and synth, binary blob exporting and packaging
+- `01:21:50` input to Rivet and sync, binary blob exporting and packaging
 - `01:26:15` platforms, final target is `x86` 32bit MSVC
 - `01:28:15` less than 300k before compression
-- `01:29:55` synth tracker variable values
+- `01:29:55` sync tracker variable values
 - `01:33:15` content creation limitations for 64k
 - `01:35:00` no texture generator in the tool
 - `01:38:40` code overview
@@ -82,9 +82,9 @@ The plan is that the tool will be (eventually) open-source as a public mirror, w
 
 ## Tool Windows Overview
 
-The screenshot shows a raymarched scene, its operator graph and a synth tracker window.
+The screenshot shows a raymarched scene, its operator graph and a sync tracker window.
 
-On left side is the demotool window, on the right side is the synth tracker window (separate application). The demotool connects to the synth tracker on a `localhost` port.
+On left side is the demotool window, on the right side is the sync tracker window (separate application). The demotool connects to the sync tracker on a `localhost` port.
 
 ![tool window screenshot](./assets/tool-window-overview-screenshot.png)
 
@@ -100,7 +100,7 @@ The tool (*Demotivation*) is written in Rust. This project produces a static lib
 Qt GUI (C++) <-> Application static library (Rust)
 ```
 
-(Qt is not used via Rust b/c the wrappers were not around at the time)
+Qt is not used via Rust as a matter of convenience, it was easier to use it with C++.
 
 [FFI]: https://en.wikipedia.org/wiki/Foreign_function_interface
 
@@ -116,7 +116,7 @@ The blocks are a tree, represented with blocks on a grid.
 
 As a **data model**, the graph is a hashmap of **positions** on a grid to **operators**. Operators are tagged enums. Each operator has an expression, a string which is later interpreted to values.
 
-(`00:31:18`) An expession `sync("Post:black")` will grab a value from the synth tracker.
+(`00:31:18`) An expession `sync("Post:black")` will grab a value from the sync tracker.
 
 The graph is recompiled at every keypress and rendered, or errors are printed on the console.
 
@@ -145,9 +145,11 @@ Because of the frequent recompilation, it was necessary to generate the CPU code
 
 Execution starts on a block and steps downwards block-by-block, it stops when hitting an empty block.
 
-Vertical arrangement: One vertical stack is one scope. A called subroutine has access to the variables of the caller.
+Vertical arrangement: One vertical stack is one scope. 
 
 Horizontal arrangement: for now it is only for visually grouping vertical stacks to organise functionality.
+
+Scoping: A called subroutine has access to the variables of the caller. Argument ops (`ar`) compile-time check that callers have a certain local variable available when calling subroutines. This can ensure certain things to be there.
 
 (`00:31:00`) Shaders are compiled, uniforms values are defined as float (`uf`) or render targets as texture inputs (`urtt`).
 
@@ -191,13 +193,15 @@ The context for the function:
 
 In the byte code this is turned into indexes in a big ordered list.
 
-## Synth Tracker
+## Sync Tracker
 
 Allows to move backwards and forwards in time, play and stop, etc.
 
-This is based on GNU Rocket, although it doesn't have any code left from the original Rocket. The main part is a data format and protocol to do synth tracking via a [client-server IPC][IPC] (Inter-process Communication) model.
+This is based on GNU Rocket, although it doesn't have any code left from the original Rocket. The main part is a data format and protocol to do sync tracking via a [client-server IPC][IPC] (Inter-process Communication) model.
 
-The editor was created by (... ?)
+The editor is [emoon/rocket](https://github.com/emoon/rocket), created by [emoon][emoon] of *The Black Lotus* group.
+
+[emoon]: http://www.pouet.net/user.php?who=861
 
 [IPC]: https://en.wikipedia.org/wiki/Inter-process_communication
 
