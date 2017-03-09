@@ -266,7 +266,7 @@ The included byte code gets JIT-ed the asset manager will perpare render targets
 
 ## Low-level module architecture
 
-![modules](./assets/ep002/modules-diagram.png)
+![modules](./assets/ep002/modules-diagram-export.png)
 
 `01:14:50`
 
