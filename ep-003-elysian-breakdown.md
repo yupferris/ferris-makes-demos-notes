@@ -8,9 +8,9 @@ Notes on [Ferris Makes Demos Ep.003 - Elysian Breakdown][talk] by [ferris](https
 
 Everything in the intro is meshes (`00:17:43`). 
 
-Vertex data for the platonic solids is from Paul Borg's site (`00:32:20`).
+Vertex data for the platonic solids is from [Paul Bourke][platonic] (`00:32:20`).
 
-Depth of Field method is from [Graphics Gems, Crytek paper][crytek-paper] (`01:23:15`). TODO link
+Depth of Field method is from [Graphics Gems, Crytek paper][crytek-paper] (`01:23:15`).
 
 [talk]: https://www.youtube.com/watch?v=DcsesTY6AxI
 
@@ -19,6 +19,8 @@ Depth of Field method is from [Graphics Gems, Crytek paper][crytek-paper] (`01:2
 [elysian]: http://www.pouet.net/prod.php?which=68375
 
 [crytek-paper]: http://www.crytek.com/download/Sousa_Graphics_Gems_CryENGINE3.pdf
+
+[platonic]: http://paulbourke.net/geometry/platonic/
 
 ## Talk TOC
 
