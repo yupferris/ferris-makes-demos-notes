@@ -10,7 +10,7 @@ Everything in the intro is meshes (`00:17:43`).
 
 Vertex data for the platonic solids is from [Paul Bourke][platonic] (`00:32:20`).
 
-Depth of Field method is from [Graphics Gems, Crytek paper][crytek-paper] (`01:23:15`).
+Depth of Field method is based on [Graphics Gems, Crytek paper][crytek-paper] (`01:23:15`).
 
 [talk]: https://www.youtube.com/watch?v=DcsesTY6AxI
 
@@ -65,7 +65,7 @@ Depth of Field method is from [Graphics Gems, Crytek paper][crytek-paper] (`01:2
 - `01:15:10` twister background
 - `01:18:25` **rangs scene with icosahedron**
 - `01:22:40` moving the DOF
-- `01:23:15` DOF is from Graphics Gems, Crytek paper
+- `01:23:15` DOF is based on Graphics Gems, Crytek paper
 - `01:24:50` **final scene**
 - `01:26:50` outputs of the different shader stages
 - `01:27:15` the lighting is GGX with point lights
