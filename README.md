@@ -6,10 +6,10 @@ Ferris makes weekly streams about the insane art of real-time audio and graphics
 
 Join [the streams][streams] on Sunday evenings at 20:00 CET/CEST or watch them on the [YouTube playlist][playlist]. He typically announces the stream [on twitter][on-twitter] when there is one coming up.
 
-- Ep.001 - WaveSabre - [watch](https://www.youtube.com/watch?v=V8JXraZPkh8)
+- Ep.001 - [WaveSabre - Notes](ep-001-wavesabre.md) - [watch](https://www.youtube.com/watch?v=V8JXraZPkh8)
 - Ep.002 - [Demotivation - Notes](ep-002-demotivation.md) - [watch](https://www.youtube.com/watch?v=p9Obe-Xg35o)
 - Ep.003 - [Elysian Breakdown - Notes](ep-003-elysian-breakdown.md) - [watch](https://www.youtube.com/watch?v=DcsesTY6AxI)
-- Ep.004 - SNES Tracker
+- Ep.004 - SNES Tracker - [watch](https://www.youtube.com/watch?v=FNDZSbLdzrs)
 
 [ferris]: http://www.pouet.net/user.php?who=16820
 
