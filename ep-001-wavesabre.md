@@ -6,19 +6,17 @@ Notes on [Ferris Makes Demos Ep.001 - WaveSabre][talk] by [ferris](https://githu
 
 [talk]: https://www.youtube.com/watch?v=V8JXraZPkh8
 
-`00:19:46` TODO track link
-
 ## Talk TOC
 
-- `00:05:00` watch [Elysian][elysian-prod], track solely by [Hoffman][hoffman], whole intro is 56k, synth is ~30k compressed
+- `00:05:00` watch [Elysian][elysian-prod], track solely by [Hoffman][hoffman], whole intro is 56k, synth+music is ~30k compressed
 - `00:08:00` mention Spaceballs [Makt][makt-prod] (Amiga demo) and [write-up][makt-article]
 - `00:05:20` what is the demoscene? summary
 - `00:13:15` watch *Migraine*, 44kb intro, made in ~5hrs
 - `00:15:10` explain parts that make up a demo (audio and gfx)
 - `00:16:15` executable music is a category of competition at demo parties
 - `00:17:25` the work on the synth goes back to 5 years ago
-- `00:18:15` byte-size of the music: depends... with this tool, ~20-22k
-- `00:19:46` listen to the track, released at (?) TRSAC 2015, ~27k
+- `00:18:15` byte-size of the synth+music: depends... with this tool, ~20-22k
+- `00:19:46` listen to [Reverence](https://soundcloud.com/h0ffman/hoffman-vs-ferris-reverence), exemusic released at TRSAC 2015, ~27k
 - `00:24:45` demoscene history (cracktro origins)
 - `00:26:10` the UI is [Ableton Live][ableton]
 - `00:26:35` WaveSabre introduction
@@ -26,7 +24,7 @@ Notes on [Ferris Makes Demos Ep.001 - WaveSabre][talk] by [ferris](https://githu
 - `00:27:30` [slides about WaveSabre][wavesabre-slides] from 2013
 - `00:27:45` `WaveSabreCore` -- envelopes, oscillators, devices, etc.
 - `00:28:15` `WaveSabrePlayerLib` -- playing sound and executable, takes the serialized song and unpacks it to audio devices
-- `00:28:25` `WaveSabreVstLib` -- connecting the libs to a coherent package
+- `00:28:25` `WaveSabreVstLib` -- connecting the libs to a coherent package with abstractions for building VST interfaces on top
 - `00:29:30` code overview
 - `00:30:00` GUI overview (synth features rather than Ableton features)
 - `00:31:40` slaughter, scissor, crusher, leveller, chamfer, echo
@@ -65,6 +63,8 @@ Notes on [Ferris Makes Demos Ep.001 - WaveSabre][talk] by [ferris](https://githu
 [makt-article]: https://codingwithballs.wordpress.com/2017/02/19/makt/
 
 [makt-prod]: http://www.pouet.net/prod.php?which=68878
+
+[Reverence track]: https://soundcloud.com/h0ffman/hoffman-vs-ferris-reverence
 
 [ableton]: https://www.ableton.com/en/live/
 
