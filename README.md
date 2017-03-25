@@ -11,7 +11,7 @@ Join [the streams][streams] on Sunday evenings at 20:00 CET/CEST or watch them o
 - Ep.003 - [Elysian Breakdown - Notes](ep-003-elysian-breakdown.md) - [watch](https://www.youtube.com/watch?v=DcsesTY6AxI)
 - Ep.004 - [SNES Tracker - Notes](ep-004-snes-tracker.md) - [watch](https://www.youtube.com/watch?v=FNDZSbLdzrs)
 - Ep.005 - [SNES tool: Mammon Machine - Notes](ep-005-mammon-machine.md) - [watch](https://www.youtube.com/watch?v=dMAeX0MCQmI)
-- Ep.006 - PBR Play - 2016-03-23
+- Ep.006 - [PBR Play](ep-006-pbr-play.md) - [watch](https://www.youtube.com/watch?v=LuKwU7BJv44)
 
 [ferris]: http://www.pouet.net/user.php?who=16820
 
