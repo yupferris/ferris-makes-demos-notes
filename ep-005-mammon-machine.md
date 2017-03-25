@@ -38,7 +38,7 @@ Demo: Smash It, nu.
 
 To be continued...
 
-[smash-it]: TODO
+[smash-it]: http://www.pouet.net/prod.php?which=64255
 
 ## Screenshots
 
