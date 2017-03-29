@@ -6,12 +6,13 @@ Ferris makes weekly streams about the insane art of real-time audio and graphics
 
 Join [the streams][streams] on Sunday evenings at 20:00 CET/CEST or watch them on the [YouTube playlist][playlist]. He typically announces the stream [on twitter][on-twitter] when there is one coming up.
 
-- Ep.001 - [WaveSabre - Notes](ep-001-wavesabre.md) - [watch](https://www.youtube.com/watch?v=V8JXraZPkh8)
-- Ep.002 - [Demotivation - Notes](ep-002-demotivation.md) - [watch](https://www.youtube.com/watch?v=p9Obe-Xg35o)
-- Ep.003 - [Elysian Breakdown - Notes](ep-003-elysian-breakdown.md) - [watch](https://www.youtube.com/watch?v=DcsesTY6AxI)
-- Ep.004 - [SNES Tracker - Notes](ep-004-snes-tracker.md) - [watch](https://www.youtube.com/watch?v=FNDZSbLdzrs)
-- Ep.005 - [SNES tool: Mammon Machine - Notes](ep-005-mammon-machine.md) - [watch](https://www.youtube.com/watch?v=dMAeX0MCQmI)
-- Ep.006 - [PBR Play](ep-006-pbr-play.md) - [watch](https://www.youtube.com/watch?v=LuKwU7BJv44)
+- Ep.001 - [WaveSabre (64k synth tool)](ep-001-wavesabre.md) - [watch](https://www.youtube.com/watch?v=V8JXraZPkh8)
+- Ep.002 - [Demotivation (64k demo tool)](ep-002-demotivation.md) - [watch](https://www.youtube.com/watch?v=p9Obe-Xg35o)
+- Ep.003 - [Elysian Breakdown (64k PC demo)](ep-003-elysian-breakdown.md) - [watch](https://www.youtube.com/watch?v=DcsesTY6AxI)
+- Ep.004 - [SNES Tracker](ep-004-snes-tracker.md) - [watch](https://www.youtube.com/watch?v=FNDZSbLdzrs)
+- Ep.005 - [Mammon Machine (SNES tool)](ep-005-mammon-machine.md) - [watch](https://www.youtube.com/watch?v=dMAeX0MCQmI)
+- Ep.006 - [PBR Play (live shader coding)](ep-006-pbr-play.md) - [watch](https://www.youtube.com/watch?v=LuKwU7BJv44)
+- Ep.007 - [Smash It Breakdown (SNES demo)](ep-007-smash-it-breakdown.md) - [watch](https://www.youtube.com/watch?v=nWX-7vxwNug&t=16s)
 
 [ferris]: http://www.pouet.net/user.php?who=16820
 
