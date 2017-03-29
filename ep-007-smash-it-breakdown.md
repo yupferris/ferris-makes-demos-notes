@@ -8,7 +8,7 @@ Breakdown of the SNES demo [Smash It][smash-it] by [elix][elix], released at TRS
 
 [smash-it]: http://www.pouet.net/prod.php?which=64255
 
-[talk]: https://www.youtube.com/watch?v=nWX-7vxwNug&t=16s
+[talk]: https://www.youtube.com/watch?v=nWX-7vxwNug
 
 ## Talk TOC
 

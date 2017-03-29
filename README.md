@@ -12,7 +12,7 @@ Join [the streams][streams] on Sunday evenings at 20:00 CET/CEST or watch them o
 - Ep.004 - [SNES Tracker](ep-004-snes-tracker.md) - [watch](https://www.youtube.com/watch?v=FNDZSbLdzrs)
 - Ep.005 - [Mammon Machine (SNES tool)](ep-005-mammon-machine.md) - [watch](https://www.youtube.com/watch?v=dMAeX0MCQmI)
 - Ep.006 - [PBR Play (live shader coding)](ep-006-pbr-play.md) - [watch](https://www.youtube.com/watch?v=LuKwU7BJv44)
-- Ep.007 - [Smash It Breakdown (SNES demo)](ep-007-smash-it-breakdown.md) - [watch](https://www.youtube.com/watch?v=nWX-7vxwNug&t=16s)
+- Ep.007 - [Smash It Breakdown (SNES demo)](ep-007-smash-it-breakdown.md) - [watch](https://www.youtube.com/watch?v=nWX-7vxwNug)
 
 [ferris]: http://www.pouet.net/user.php?who=16820
 
