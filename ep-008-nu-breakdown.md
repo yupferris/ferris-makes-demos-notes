@@ -2,9 +2,11 @@
 
 Notes on [Ferris Makes Demos Ep.008 - Nu Breakdown][talk] by [ferris](https://github.com/yupferris).
 
-Breakdown of the SNES demo [nu] by [elix], released at The Gathering 2014.
+Breakdown of the SNES demo [nu] by [ferris][ferris-pouet], released at The Gathering 2014.
 
 [nu]: http://www.pouet.net/prod.php?which=62927
+
+[ferris-pouet]: http://www.pouet.net/user.php?who=16820
 
 [elix]: http://www.pouet.net/groups.php?which=12309
 
@@ -18,7 +20,7 @@ Breakdown of the SNES demo [nu] by [elix], released at The Gathering 2014.
 - `00:05:40` see the OpenGL demo, immediate-mode GL
 - `00:06:30` demo math planning: in one `vblank`, if it is all `dma`, you can get 3kb data over in one frame
 - `00:09:50` beeble's gfx in [four.color.process][four-color] was the inspiration for the design
-- `00:12:10` parts of hte OpenGL demo, the effects are mostly drawn on quads moving around and displayed from a camera perspective
+- `00:12:10` parts of the OpenGL demo, the effects are mostly drawn on quads moving around and displayed from a camera perspective
 - `00:12:35` rangs scene: color rings as arcs of a certain radius
 - `00:18:00` globule scene
 - `00:25:15` tunnel scene
