@@ -37,14 +37,7 @@ Many scenes were inspired by [beeple's gfx work][beeple-gfx].
 - `00:24:50` work time on the demo: synth work since November 2016, tool and gfx work since mid-March 2017
 - `00:26:30` [music track][music-track] overview
 - `00:38:30` `Adultery` plugin test project, playing samples
-- `00:43:55` 64k is huge -- talk about the content that fits into 64k and optimizations.
-
-About 4-5k was saved with optimizations on:
-
-- the automation data which changes parameters over time for the tracks. These are a float value 0.0 - 1.0 and a timestamp. It was a big size saver to use a one-byte int for the values instead of four-byte floats.
-- delta-encoding the timestamps relative to the previous event, not relative to the beginning of the intro, so that the timestamps can be a smaller value type.
-- Ableton Live produces double data when copy-pasting, but just clicking again on all the samples removes that.
-
+- `00:43:55` 64k is huge -- talk about the content that fits into 64k and clever ways of optimizing the size.
 - `00:48:55` the executable compression is done with **kkrunchy**, not **crinkler** (b/c crinkler works better for the 4-8k range)
 - `00:50:20` talk about **no sleep** around Revision
 - `00:51:32` story board of the intro, a whole scene was missing before the party
@@ -79,6 +72,16 @@ About 4-5k was saved with optimizations on:
 - `03:27:10` **eight balls scene**
 - `03:32:15` more WIP shots
 - `03:45:31` *kkrunchy's* compression techniques
+
+## Optimizations
+
+About 4-5k was saved with optimizations on:
+
+The automation data which changes parameters over time for the tracks. These are a float value 0.0 - 1.0 and a timestamp. It was a big size saver to use a one-byte int for the values instead of four-byte floats.
+
+Delta-encoding the timestamps relative to the previous event, not relative to the beginning of the intro, so that the timestamps can be a smaller value type.
+
+Ableton Live produces double data when copy-pasting, but just clicking again on all the samples removes that.
 
 ## Screenshots
 
