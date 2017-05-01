@@ -63,7 +63,7 @@ Many scenes were inspired by [beeple's gfx work][beeple-gfx].
 - `02:44:40` WIP shots of the credits
 - `02:47:05` move the camera around the spheres to see the reflections
 - `02:47:15` no shadow in the demo for performance, just Ambient Occlusion
-- `02:50:25` the wild chromatic aberration which is a radial blue with RGB separation
+- `02:50:25` the wild chromatic aberration which is a radial blur with RGB separation
 - `02:51:25` **shiny ball and needle scene**
 - `02:54:20` **screen content shaders** (radial stripes and code writer)
 - `03:11:00` **greeting texts**
@@ -150,7 +150,7 @@ Ableton Live produces double data when copy-pasting, but just clicking again on 
 
 ![reflections](./assets/ep009/reflections.png)
 
-- `02:50:25` the wild chromatic aberration which is a radial blue with RGB separation
+- `02:50:25` the wild chromatic aberration which is a radial blur with RGB separation
 
 ![aberration](./assets/ep009/aberration.png)
 
